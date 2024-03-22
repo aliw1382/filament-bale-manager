@@ -27,9 +27,9 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=8.0",
-        "filament/filament": ">=2.*",
+        "filament/filament": "^2.0|^3.0",
         "laravel/framework": "^8.0|^9.0|^10.0|^11.0",
-        "filament/forms": ">=2.*",
-        "mokhosh/filament-jalali": ">=2.0"
+        "filament/forms": "^2.0|^3.0",
+        "mokhosh/filament-jalali": "^2.0|^3.0"
     }
 }
