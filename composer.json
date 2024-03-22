@@ -28,8 +28,8 @@
     "require": {
         "php": ">=8.0",
         "filament/filament": ">=2.*",
-        "laravel/framework": ">=v10.48.4",
+        "laravel/framework": "^8.0|^9.0|^10.0|^11.0",
         "filament/forms": ">=2.*",
-        "mokhosh/filament-jalali": ">=v2.0"
+        "mokhosh/filament-jalali": ">=2.0"
     }
 }
