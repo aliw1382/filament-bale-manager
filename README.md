@@ -1,10 +1,10 @@
 # Requirement
 
-* php: >=8.0
-* filament/filament: *
-* filament/forms: *
-* laravel/framework: >= 9.*
-* mokhosh/filament-jalali: *
+* "php": ">=8.0"
+* "filament/filament": "^2.0|^3.0"
+* "laravel/framework": "^8.0|^9.0|^10.0|^11.0"
+* "filament/forms": "^2.0|^3.0"
+* "mokhosh/filament-jalali": "^2.0|^3.0"
 
 # Installation
 
@@ -24,6 +24,22 @@ And Run This Command
 $ php artisan vendor:publish --provider=Aliw1382\FilamentBaleManager\Providers\FilamentBaleManagerServiceProvider
 ```
 
+Add Plugin To Filament, Open File Panel Provider
+
+```php
+public function panel( Panel $panel ) : Panel
+{
+
+    return $panel
+    // ...
+    ->plugins([
+    
+        BalePlugin::make(), # <--- Add This Line
+    
+    ]);
+    
+}
+```
 
 # History
 
