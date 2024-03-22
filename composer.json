@@ -1,0 +1,34 @@
+{
+    "name": "aliw1382/filament-bale-manager",
+    "description": "plugin filament for send message from bale messager",
+    "type": "filament-plugin",
+    "license": "MIT",
+    "version": "0.1.0",
+    "keywords": [
+        "laravel",
+        "filament",
+        "bale bot",
+        "filament bale bot",
+        "bale"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Aliw1382\\FilamentBaleManager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ali Shahmohammadi",
+            "email": "aliw1382@gmail.com",
+            "homepage": "https://github.com/aliw1382/telegram-tools"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0",
+        "filament/filament": "*",
+        "laravel/framework": ">=9.*",
+        "filament/forms": "*",
+        "mokhosh/filament-jalali": "*"
+    }
+}
